@@ -15,6 +15,7 @@ import (
 	"github.com/olive42/euler/problem11"
 	// "github.com/olive42/euler/problem12" // very slow
 	"github.com/olive42/euler/problem13"
+	"github.com/olive42/euler/problem14"
 )
 
 func main() {
@@ -38,4 +39,5 @@ func main() {
 	fmt.Printf("Problem 11: %v\n", problem11.FindMaxQuatruplet())
 	// fmt.Printf("Problem 12: %v\n", problem12.Find500Divisors())
 	fmt.Printf("Problem 13: %v\n", problem13.FindSum())
+	fmt.Printf("Problem 14: %v\n", problem14.MaxChain())
 }
