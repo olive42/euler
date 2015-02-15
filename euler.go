@@ -10,6 +10,7 @@ import (
 	// "github.com/olive42/euler/problem6"
 	// "github.com/olive42/euler/problem7"
 	"github.com/olive42/euler/problem8"
+	"github.com/olive42/euler/problem9"
 )
 
 func main() {
@@ -25,4 +26,7 @@ func main() {
 		fmt.Printf("Error: %v", err)
 	}
 	fmt.Printf("Problem 8: %v\n", max)
+
+	a, b, c := problem9.FindGoldenTriplet()
+	fmt.Printf("Problem9: %v\n", a*b*c)
 }
