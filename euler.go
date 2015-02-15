@@ -11,8 +11,10 @@ import (
 	// "github.com/olive42/euler/problem7"
 	"github.com/olive42/euler/problem8"
 	"github.com/olive42/euler/problem9"
-	// "github.com/olive42/euler/problem10"
+	// "github.com/olive42/euler/problem10" //slow
 	"github.com/olive42/euler/problem11"
+	// "github.com/olive42/euler/problem12" // very slow
+	"github.com/olive42/euler/problem13"
 )
 
 func main() {
@@ -34,4 +36,6 @@ func main() {
 
 	// fmt.Printf("Problem 10: %v\n", problem10.SumPrimes(problem10.MAX))
 	fmt.Printf("Problem 11: %v\n", problem11.FindMaxQuatruplet())
+	// fmt.Printf("Problem 12: %v\n", problem12.Find500Divisors())
+	fmt.Printf("Problem 13: %v\n", problem13.FindSum())
 }
