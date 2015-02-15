@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	LOG = true
+	LOG = false
 )
 
 func log(s string) {

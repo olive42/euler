@@ -11,6 +11,7 @@ import (
 	// "github.com/olive42/euler/problem7"
 	"github.com/olive42/euler/problem8"
 	"github.com/olive42/euler/problem9"
+	// "github.com/olive42/euler/problem10"
 )
 
 func main() {
@@ -28,5 +29,7 @@ func main() {
 	fmt.Printf("Problem 8: %v\n", max)
 
 	a, b, c := problem9.FindGoldenTriplet()
-	fmt.Printf("Problem9: %v\n", a*b*c)
+	fmt.Printf("Problem 9: %v\n", a*b*c)
+
+	// fmt.Printf("Problem 10: %v\n", problem10.SumPrimes(problem10.MAX))
 }
