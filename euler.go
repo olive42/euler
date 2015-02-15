@@ -12,6 +12,7 @@ import (
 	"github.com/olive42/euler/problem8"
 	"github.com/olive42/euler/problem9"
 	// "github.com/olive42/euler/problem10"
+	"github.com/olive42/euler/problem11"
 )
 
 func main() {
@@ -32,4 +33,5 @@ func main() {
 	fmt.Printf("Problem 9: %v\n", a*b*c)
 
 	// fmt.Printf("Problem 10: %v\n", problem10.SumPrimes(problem10.MAX))
+	fmt.Printf("Problem 11: %v\n", problem11.FindMaxQuatruplet())
 }
