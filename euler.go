@@ -16,6 +16,7 @@ import (
 	// "github.com/olive42/euler/problem12" // very slow
 	"github.com/olive42/euler/problem13"
 	"github.com/olive42/euler/problem14"
+	"github.com/olive42/euler/problem16"
 )
 
 func main() {
@@ -40,4 +41,11 @@ func main() {
 	// fmt.Printf("Problem 12: %v\n", problem12.Find500Divisors())
 	fmt.Printf("Problem 13: %v\n", problem13.FindSum())
 	fmt.Printf("Problem 14: %v\n", problem14.MaxChain())
+
+	i, err := problem16.SumPowerOfTwo(1000)
+	if err != nil {
+		fmt.Printf("Problem 16 error: %v\n", err)
+	} else {
+		fmt.Printf("Problem 16: %v\n", i)
+	}
 }
